@@ -38,6 +38,6 @@ public class Bank {
         return accounts.stream()
                 .filter(a -> a.getAccountNumber().equals(accountNumber))
                 .findFirst()
-                .orElseThrow(() -> new IllegalArgumentException("Account not found"));
+                .orElseThrow(() -> new IllegalArgumentException("Account not found."));
     }
 }

@@ -39,10 +39,10 @@ public class Account {
             if (this.balance >= amount) {
                 this.balance -= amount;
             } else {
-                throw new IllegalStateException("Insufficient funds");
+                throw new IllegalStateException("Insufficient funds.");
             }
         } else {
-            throw new IllegalArgumentException("Withdrawal amount must be positive");
+            throw new IllegalArgumentException("Withdrawal amount must be a positive value.");
         }
     }
 }
