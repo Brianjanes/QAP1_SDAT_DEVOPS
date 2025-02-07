@@ -27,13 +27,13 @@ public class BankTest {
 
         // Then
         assertEquals(initialBalance + depositAmount, bank.getBalance(accountNumber),
-                "Balance should increase by deposit amount");
+                "Balance should increase by deposit amount.");
     }
 
     @Test
     void withdrawShouldDecreaseBalance() {
-        // Given
-        bank.deposit(accountNumber, 100.0); // Setup initial balance
+        // Setup initial balance
+        bank.deposit(accountNumber, 100.0);
         double initialBalance = bank.getBalance(accountNumber);
         double withdrawAmount = 50.0;
 

@@ -22,7 +22,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- This includes all JUnit modules -->
+        <!-- JUnit modules -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
@@ -31,7 +31,7 @@
         </dependency>
     </dependencies>
 
-    <!-- This plugin is needed for GitHub Actions to run tests -->
+    <!-- Needed for GitHub Actions to run tests -->
     <build>
         <plugins>
             <plugin>

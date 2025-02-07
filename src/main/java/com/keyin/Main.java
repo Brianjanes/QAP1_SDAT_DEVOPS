@@ -5,7 +5,7 @@ public class Main {
         // Create a new bank
         Bank bank = new Bank();
 
-        // Create some test accounts
+        // Create test accounts
         Account account1 = bank.createAccount("John Doe");
         Account account2 = bank.createAccount("Jane Smith");
 
